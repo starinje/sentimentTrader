@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>My App!</title>
+        
+        <!-- set the base path for angular routing -->
+        <base href="/">
+        
+        <!-- CSS -->
+        <!-- load bootstrap and fontawesome via CDN -->
+        <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css">
+
+        <!-- JS -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        
+        <!-- load angular and angular-route via CDN -->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular-route.js"></script>
+        
+        <!-- amCharts javascript sources -->
+        <script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+        <script src="https://www.amcharts.com/lib/3/serial.js"></script>
+        <script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
+        <script src="https://www.amcharts.com/lib/3/amstock.js"></script>
+        <script src="https://www.amcharts.com/lib/3/plugins/dataloader/dataloader.min.js"></script>
+        <script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
+        <script src="https://www.amcharts.com/lib/3/amstock.js"></script>
+        
+       
+        <!-- load our custom angular app files -->
+        <script src="./app.js"></script>
+        
+        <!-- amCharts javascript code -->
+		<script type="text/javascript" src="./data_chart.js"></script>
+		
+		</script>
+        
+        <style>
+            body { 
+                padding-top:50px; 
+                padding-right:50px; 
+                padding-left:50px; 
+                padding-bottom:50px; 
+                
+            }
+            
+            #chartdiv {
+	            width	: 100%;
+            	height	: 800px;
+            	padding-top:25px; 
+                padding-right:25px; 
+            }	
+            
+            #test {
+                font: 10px, "Lucida Grande", Arial, Verdana, sans-serif;   
+                background: #ffffff;
+                border-color: #cccccc;
+                border-style: solid;
+                border-width: 1px;
+                border-radius: 4px;
+                margin: 0 0 0 0;
+                padding: 6px 12px;
+                height: 29px;
+            }
+        </style>
+        
+    </head>
+    
+    <body>
+
+        <input id="test" type="button" value="Load Data" onclick="ResetGraphData(chart);">
+        <div id="chartdiv" ></div>
+            
+    </body>
+
+</html>

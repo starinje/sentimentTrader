@@ -1,0 +1,28 @@
+{   
+    "id":18592358,
+    "body":"$PSX Wow this chart has been on a tear since the spinoff. Go energy!",
+    "created_at":"2014-01-02T01:29:48Z",
+    "user":{
+        "id":16880,"username":"BeckyHiu",
+        "name":"Becky Hiu",
+        "avatar_url":"http://avatars.stocktwits.com/production/16880/thumb-1404749163.png",
+        "avatar_url_ssl":"https://s3.amazonaws.com/st-avatars/production/16880/thumb-1404749163.png",
+        "official":false,
+        "identity":"User",
+        "classification":["suggested"],
+        "join_date":"2010-06-11",
+        "followers":5521,
+        "following":340,
+        "ideas":34879,
+        "following_stocks":3,
+        "location":"Des Moines",
+        "bio":"Fundamental &amp; technical trader. This is the personal Twitter account of Becky Hiu and isn&#39;t connected in any way to a professional designation or vocation. Opinions are my own. Trade at your own discretion.",
+        "website_url":"http://beckyhiu.blogspot.com/",
+        "trading_strategy":{"assets_frequently_traded":["Equities","Options"],"approach":"Technical","holding_period":"Swing Trader","experience":"Intermediate"}
+    },
+    "source":{"id":1,"title":"StockTwits","url":"http://stocktwits.com"},
+    "symbols":[{"id":11237,"symbol":"PSX","title":"Phillips 66","exchange":"NYSE","sector":"Basic Materials","industry":"Oil & Gas Refining & Marketing","trending":true}],
+    "entities":{"sentiment":null}
+}
+
+
